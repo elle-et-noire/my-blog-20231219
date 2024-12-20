@@ -28,7 +28,6 @@ export default async function PostPage({ params }: Props) {
         </div>
         <div
           className="znc font-medium"
-          // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>
